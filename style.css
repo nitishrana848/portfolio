@@ -14,7 +14,7 @@
     src: url("Portfolio copy/Portfolio copy/Fonts/Good Sans/GoodSans-Bold.otf");
 }
 @font-face {
-    font-family: "Monarcha";
+    font-family: "monarcha";
     src: url("Portfolio copy/Portfolio copy/Fonts/Monarcha/Monarcha.rtf");
 }
 
@@ -31,13 +31,14 @@ body{
 .logo{
     margin: 2rem;
     display: inline;
+    place-self: center;
 }
 .logo img{
     width: 200px;
 }
 .nav{
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
 }
 nav{
     display: inherit;
@@ -54,7 +55,7 @@ header {
     grid-template-columns: 50% 40%;
     place-items: center;
     margin-top: 60px;
-    font-family: "Monarcha";
+    font-family: "monarcha";
 }
 header .text{
     width: 60%;
@@ -66,6 +67,7 @@ header .text{
 header .text h1{
     margin-bottom: -1rem;
     font-size: 36px;
+    font-family: "monarcha";
 }
 .text p{
     font-size: 24px;
@@ -394,7 +396,7 @@ header .text{
                 width: 300px;
             }
             .text p {
-                font-size: 14px;
+                font-size: 16px;
             }
             
             
@@ -451,7 +453,7 @@ header .text{
                 position: absolute;
             }
             .text p {
-                font-size: 10px;
+                font-size: 16px;
             }
             
             
@@ -528,7 +530,7 @@ section{
     grid-row-gap: 2rem;
     grid-column-gap: 2rem;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 section img{
     width: 100%;
@@ -555,6 +557,7 @@ footer{
 }
 footer h3{
     font-size: 1rem;
+    font-weight: normal;
 }
 footer img{
     width: 100px;
@@ -583,6 +586,9 @@ footer img{
 footer{
     display: none;
 }
+header .text{
+    width: 90%;
+}
 .footer h3{
     font-weight: normal;
 }
@@ -601,7 +607,7 @@ footer{
 .hamburger {
     display: inline;
     position: absolute;
-    top: 11.5%;
+    top: 5.5%;
     right: 14%;
     width: 72vw;
     z-index: 3;
@@ -624,6 +630,19 @@ footer{
     width: 60px;
 }
 }
+.box:hover {
+    position: relative;
+}
+
+.box1:hover::before ,.box2:hover::before ,.box3:hover::before ,.box3:hover::before ,.box4:hover::before ,.box5:hover::before ,.box6:hover::before{
+    content:url("output-onlinepngtools0.png"); /* no need for qoutes */
+
+    display: inline;
+    position: absolute;
+    left: 0; /* change this value to one that suits you */
+    top: 0%; /* change this value to one that suits you */
+  
+}
 @media only screen and (max-width:500px) {
     .footer img{
         width: 40px;
@@ -640,7 +659,7 @@ footer{
     .hamburger{
         display: inline;
         position: absolute;
-        top: 7.5%;
+        top: 4%;
         right: 12%;
         width: 77vw;
         z-index: 3;
@@ -656,6 +675,9 @@ footer{
         flex-direction: column;
         justify-content: space-between;
     }
+    header .text{
+        width: 90%;
+    }
     .main{
         margin:1rem;
     }
@@ -663,6 +685,9 @@ footer{
     header .text h1 {
         margin-bottom: -10px;
         font-size: 19px;
+    }
+    header .text p{
+        font-size: 15px;
     }
     #icon4{
         left:19%;
