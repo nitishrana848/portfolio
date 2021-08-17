@@ -659,7 +659,7 @@ header .text{
     .hamburger{
         display: inline;
         position: absolute;
-        top: 4%;
+        top: 6.5%;
         right: 12%;
         width: 77vw;
         z-index: 3;
