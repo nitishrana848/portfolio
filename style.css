@@ -118,7 +118,7 @@ li{
 }
 
 .hamburgerlines{
-    width: 32px;
+    width: 26px;
     height: 32px;
     position: absolute;
     top: 3px;
@@ -168,6 +168,9 @@ li{
     color: black;
     width: 100%;
     
+}
+span.lines.line3 {
+    margin-bottom: 10px;
 }
 
 .hamburger input[type="checkbox"]:checked ~ .hamburgerlines .lines{
@@ -594,10 +597,10 @@ header .text{
 }
 
 .hamburgerlines {
-    width: 40px;
+    width: 26px;
     height: 32px;
     position: absolute;
-    top: 4px;
+    top: 35px;
     left: 6px;
     z-index: 2;
     display: flex;
@@ -665,11 +668,11 @@ header .text{
         z-index: 3;
     }
     .hamburgerlines {
-        width: 40px;
+        width: 26px;
         height: 32px;
         position: absolute;
-        top: 7px;
-        left: -8px;
+        top: 14px;
+        left: 0px;
         z-index: 2;
         display: flex;
         flex-direction: column;
@@ -714,4 +717,17 @@ header .text{
   }
   .footer1{
     margin-bottom: 0px;
+}
+@media only screen and (max-width:390px) {
+    #icon1 {
+        margin-top: -181px;
+        right: 22%;
+    }
+    #icon3 {
+        margin-top: 75px;
+    }
+    #icon4 {
+        left: 15%;
+        margin-top: -161px;
+    }
 }
