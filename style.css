@@ -456,41 +456,7 @@ header .text{
             
             
           }
-          @media only screen and (max-width:422px) {
-            header .mainimg img {
-                height: 302px;
-                width: 235px;
-            }
-            .main{
-                margin: 1rem;
-            }
-            header .text h1 {
-                margin-bottom: -10px;
-                font-size: 19px;
-            }
-            #icon4{
-                left:19%;
-             }
-             #icon3{
-                margin-top: 90px;
-                left: 54%;
-             }
-             #icon1{
-                margin-top: -142px;
-    
-                right: 22%;
-             }
-             #icon2{      
-                margin-top: 62px;
 
-                right: 63%;
-             }
-             .icon {
-                width: 60px;
-                height: 60px;
-                position: absolute;
-            }
-          }
           @media only screen and (max-width:394px) {
             header .mainimg img {
                 height: 302px;
@@ -620,12 +586,24 @@ footer{
 .footer h3{
     font-weight: normal;
 }
-.hamburger{
+
+.hamburgerlines {
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hamburger {
     display: inline;
     position: absolute;
-    top: 7.5%;
-    right: 12%;
-    width: 77vw;
+    top: 11.5%;
+    right: 14%;
+    width: 72vw;
     z-index: 3;
 }
 .footer{
@@ -654,3 +632,58 @@ footer{
         font-size: 0.6rem;
     }
 }
+@media only screen and (max-width:422px) {
+    header .mainimg img {
+        height: 302px;
+        width: 235px;
+    }
+    .hamburger{
+        display: inline;
+        position: absolute;
+        top: 7.5%;
+        right: 12%;
+        width: 77vw;
+        z-index: 3;
+    }
+    .hamburgerlines {
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: 7px;
+        left: -8px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .main{
+        margin:1rem;
+    }
+    
+    header .text h1 {
+        margin-bottom: -10px;
+        font-size: 19px;
+    }
+    #icon4{
+        left:19%;
+     }
+     #icon3{
+        margin-top: 90px;
+        left: 54%;
+     }
+     #icon1{
+        margin-top: -142px;
+
+        right: 22%;
+     }
+     #icon2{      
+        margin-top: 62px;
+
+        right: 63%;
+     }
+     .icon {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+    }
+  }
