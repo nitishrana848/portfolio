@@ -70,3 +70,12 @@
     top: -16%;
 }
                 }
+                @media only screen and (max-width: 1000px){
+                    .box1:hover::before, .box2:hover::before, .box3:hover::before, .box3:hover::before, .box4:hover::before, .box5:hover::before, .box6:hover::before {
+                        content: "";
+                        display: inline;
+                        position: absolute;
+                        left: -46px;
+                        top: -16%;
+                    }
+                                    }
