@@ -614,7 +614,7 @@ header .text{
 .hamburger {
     display: inline;
     position: absolute;
-    top: 5.5%;
+    top: 9%;
     right: 14%;
     width: 72vw;
     z-index: 3;
@@ -666,7 +666,7 @@ header .text{
     .hamburger{
         display: inline;
         position: absolute;
-        top: 4%;
+        top: 7%;
         right: 12%;
         width: 77vw;
         z-index: 3;
