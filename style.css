@@ -564,7 +564,7 @@ section img{
 }
 footer{
     display: grid;
-    grid-template-columns: 40% 10% 43%;
+    grid-template-columns: 40% 10% 44%;
     place-content: center;
     place-items: center;
     grid-column-gap: 2rem;
@@ -587,7 +587,7 @@ footer img{
 }
 .foot11{
     display: grid;
-    grid-template-columns: 67% 77%;
+    grid-template-columns: 51% 77%;
     grid-column-gap: 2rem;
     place-content: center;
     place-items: center;
