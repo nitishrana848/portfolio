@@ -38,7 +38,7 @@ body{
 }
 .nav{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
 }
 nav{
     display: inherit;
@@ -567,11 +567,11 @@ footer h3{
     font-weight: normal;
 }
 footer img{
-    width: 100px;
+    width: 56px;
 }
 .foot10{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 70% 40%;
     grid-column-gap: 2rem;
     place-content: center;
     place-items: center;
@@ -634,7 +634,7 @@ header .text{
     margin: 1rem;
 }
 .footer img{
-    width: 60px;
+    width: 40px;
 }
 }
 .box:hover {
@@ -734,4 +734,9 @@ header .text{
         left: 15%;
         margin-top: -161px;
     }
+}
+.icon7 {
+    width: 82px;
+    height: 100px;
+    position: absolute;
 }
