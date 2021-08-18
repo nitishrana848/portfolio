@@ -264,6 +264,11 @@ header .text{
     align-items: center;
     text-align: center;
 }
+.icon7 {
+    width: 82px;
+    height: 100px;
+    position: absolute;
+}
 #icon4{
     display: block;
     margin-top: -238px;
@@ -434,14 +439,17 @@ header .text{
                 width: 300px;
             }
             #icon4{
-                left:15%;
+               
+    left: 15%;
+    margin-top: -170px;
+}
 
-    margin-top: -139px;
 
-             }
+
+             
              #icon3{
-                margin-top: 103px;
-                left: 63%;
+                margin-top: 84px;
+
              }
              #icon1{
                 
@@ -451,8 +459,8 @@ header .text{
                 right: 18%;
              }
              #icon2{      
-                margin-top: 100px;
-                right: 63%;
+                margin-top: 63px;
+    right: 63%;
              }
              .icon {
                 width: 60px;
@@ -464,7 +472,7 @@ header .text{
             }
             
             
-          }
+        }
 
           @media only screen and (max-width:394px) {
             header .mainimg img {
@@ -700,8 +708,8 @@ header .text{
         left:19%;
      }
      #icon3{
-        margin-top: 90px;
-        left: 54%;
+        margin-top: 72px;
+        left: 59%;
      }
      #icon1{
         margin-top: -142px;
@@ -709,7 +717,7 @@ header .text{
         right: 22%;
      }
      #icon2{      
-        margin-top: 62px;
+        margin-top: 31px;
 
         right: 63%;
      }
@@ -728,15 +736,10 @@ header .text{
         right: 22%;
     }
     #icon3 {
-        margin-top: 75px;
+        margin-top: 39px;
     }
     #icon4 {
         left: 15%;
         margin-top: -161px;
     }
-}
-.icon7 {
-    width: 82px;
-    height: 100px;
-    position: absolute;
 }
