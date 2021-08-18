@@ -626,7 +626,6 @@ header .text{
     display: inline;
     position: absolute;
     top: 5%;
-
     right: 14%;
     width: 72vw;
     z-index: 3;
@@ -663,12 +662,22 @@ header .text{
     top: 0%; /* change this value to one that suits you */
   
 }
+.icon7 {
+    width: 82px;
+    height: 100px;
+    position: absolute;
+}
 @media only screen and (max-width:500px) {
     .footer img{
         width: 40px;
     }
     .footer h3{
         font-size: 0.9rem;
+    }
+    .icon7 {
+        width: 50px;
+        height: 90px;
+        position: absolute;
     }
 }
 @media only screen and (max-width:422px) {
@@ -752,8 +761,9 @@ header .text{
         margin-top: -161px;
     }
 }
-.icon7 {
-    width: 82px;
-    height: 100px;
-    position: absolute;
+
+.foot4,.foot5, .footer11{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
