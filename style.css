@@ -66,7 +66,7 @@ header .text{
 }
 header .text h1{
     margin-bottom: 4px;
-    font-size: 36px;
+    font-size: 35px;
     font-family: "monarcha";
     font-weight: 600;
 }
@@ -301,7 +301,7 @@ header .text{
     }
     header .text h1 {
         margin-bottom: 4px;
-        font-size: 25px;
+        font-size: 24px;
         font-weight: 600;
     }
     #icon4{
@@ -719,7 +719,7 @@ header .text{
     
     header .text h1 {
         margin-bottom: 4px;
-        font-size: 19px;
+        font-size: 18px;
         font-weight: 600;
     }
     header .text p{
