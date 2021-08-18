@@ -38,7 +38,7 @@ body{
 }
 .nav{
     display: grid;
-    grid-template-columns: 40% 60%;
+grid-template-columns: 40% 50%;
 }
 nav{
     display: inherit;
@@ -65,7 +65,7 @@ header .text{
     align-items: flex-start;
 }
 header .text h1{
-    margin-bottom: -1rem;
+    margin-bottom: 4px;
     font-size: 36px;
     font-family: "monarcha";
 }
@@ -299,7 +299,7 @@ header .text{
         font-size: 17px;
     }
     header .text h1 {
-        margin-bottom: -1rem;
+        margin-bottom: 4px;
         font-size: 25px;
     }
     #icon4{
@@ -571,7 +571,7 @@ footer{
     margin-left: 3rem;
 }
 footer h3{
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: normal;
 }
 footer img{
@@ -606,6 +606,7 @@ header .text{
 }
 .footer h3{
     font-weight: normal;
+    font-size: 1rem;
 }
 
 .hamburgerlines {
@@ -635,6 +636,7 @@ header .text{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 13px;
 }
 .footer1{
     display: flex;
@@ -663,7 +665,7 @@ header .text{
         width: 40px;
     }
     .footer h3{
-        font-size: 0.6rem;
+        font-size: 0.9rem;
     }
 }
 @media only screen and (max-width:422px) {
@@ -671,10 +673,13 @@ header .text{
         height: 302px;
         width: 235px;
     }
+    .footer h3{
+        font-size: 0.6rem;
+    }
     .hamburger{
         display: inline;
         position: absolute;
-        top: 7%;
+        top: 5%;
         right: 12%;
         width: 77vw;
         z-index: 3;
@@ -698,7 +703,7 @@ header .text{
     }
     
     header .text h1 {
-        margin-bottom: -10px;
+        margin-bottom: 4px;
         font-size: 19px;
     }
     header .text p{
@@ -742,4 +747,9 @@ header .text{
         left: 15%;
         margin-top: -161px;
     }
+}
+.icon7 {
+    width: 82px;
+    height: 100px;
+    position: absolute;
 }
