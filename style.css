@@ -33,8 +33,8 @@ body{
     display: inline;
     place-self: center;
 }
-.logo img{
-    width: 200px;
+.logo img {
+    width: 285px;
 }
 .nav{
     display: grid;
@@ -71,6 +71,7 @@ header .text h1{
 }
 .text p{
     font-size: 24px;
+    font-family: "Good sans";
 }
 header .mainimg img{
     height: 449px;
@@ -244,6 +245,9 @@ span.lines.line3 {
   @media only screen and (max-width: 1000px) {
 nav{
     display: none;
+}
+.logo img {
+    width: 200px;
 }
 .nav{
     display: flex;
@@ -600,7 +604,7 @@ header .text{
     width: 26px;
     height: 32px;
     position: absolute;
-    top: 35px;
+    top: 11px;
     left: 6px;
     z-index: 2;
     display: flex;
@@ -662,7 +666,7 @@ header .text{
     .hamburger{
         display: inline;
         position: absolute;
-        top: 6.5%;
+        top: 4%;
         right: 12%;
         width: 77vw;
         z-index: 3;
@@ -671,7 +675,7 @@ header .text{
         width: 26px;
         height: 32px;
         position: absolute;
-        top: 14px;
+        top: 11px;
         left: 0px;
         z-index: 2;
         display: flex;
