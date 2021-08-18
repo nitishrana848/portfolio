@@ -413,13 +413,13 @@ header .text{
             
             
             #icon4{
-                left:23%;
+                left: 16%;
              }
              #icon3{
-                margin-top: 86px;
+                margin-top: 51px;
              }
              #icon1{
-                margin-top: -200px;
+                margin-top: -232px;
     
                 right: 22%;
              }
@@ -448,12 +448,13 @@ header .text{
 
              
              #icon3{
-                margin-top: 84px;
+                margin-top: 50px;
 
              }
              #icon1{
                 
-    margin-top: -169px;
+                margin-top: -213px;
+
 
     
                 right: 18%;
@@ -563,7 +564,7 @@ section img{
 }
 footer{
     display: grid;
-    grid-template-columns: 40% 10% 40%;
+    grid-template-columns: 40% 10% 43%;
     place-content: center;
     place-items: center;
     grid-column-gap: 2rem;
@@ -571,7 +572,7 @@ footer{
     margin-left: 3rem;
 }
 footer h3{
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: normal;
 }
 footer img{
@@ -586,7 +587,7 @@ footer img{
 }
 .foot11{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 67% 77%;
     grid-column-gap: 2rem;
     place-content: center;
     place-items: center;
@@ -603,6 +604,7 @@ footer{
 }
 header .text{
     width: 90%;
+    margin-top: 34px;
 }
 .footer h3{
     font-weight: normal;
@@ -623,7 +625,8 @@ header .text{
 .hamburger {
     display: inline;
     position: absolute;
-    top: 9%;
+    top: 5%;
+
     right: 14%;
     width: 72vw;
     z-index: 3;
@@ -679,7 +682,8 @@ header .text{
     .hamburger{
         display: inline;
         position: absolute;
-        top: 5%;
+        top: 4%;
+
         right: 12%;
         width: 77vw;
         z-index: 3;
@@ -713,11 +717,11 @@ header .text{
         left:19%;
      }
      #icon3{
-        margin-top: 72px;
+        margin-top: 26px;
         left: 59%;
      }
      #icon1{
-        margin-top: -142px;
+        margin-top: -191px;
 
         right: 22%;
      }
