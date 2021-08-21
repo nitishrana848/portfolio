@@ -780,3 +780,6 @@ a{
     text-decoration: none;
     color: black;
 }
+.hamburger{
+    height: 0;
+}
