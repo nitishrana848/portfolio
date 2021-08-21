@@ -22,6 +22,12 @@ body{
     background-color: #FFFFF3;
     font-family: 'Good Sans', sans-serif;
 }
+.mcHead h1, .mcHead h2{
+    font-family: "monarcha";
+}
+.mcWhy p{
+    font-family: "Good Sans";
+}
 .main{
     margin: 2rem;
     border: 1px solid black;
@@ -769,4 +775,8 @@ header .text{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+a{
+    text-decoration: none;
+    color: black;
 }

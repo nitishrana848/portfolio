@@ -1,0 +1,43 @@
+form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+form input{
+    width: 50vw;
+    height: 30px;
+    background-color: #A5C4D4;
+    border-radius: 0.3rem;
+    border-style: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    outline: none;
+}
+textarea{
+    width: 50vw;
+    background-color: #A5C4D4;
+    border-radius: 0.3rem;
+    border-style: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    outline: none;
+}
+input[type="button" i]{
+    width: 10vw;
+    border-radius: 1rem;
+  
+}
+label,input{
+    font-family: "Good Sans";
+    color: black;
+}
+@media only screen and (max-width: 1000px) {
+    input[type="button" i]{
+        width: 20vw;
+        border-radius: 1rem;
+      
+    }
+}

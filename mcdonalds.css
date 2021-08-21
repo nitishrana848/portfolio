@@ -1,0 +1,52 @@
+.mcHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mcinfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.mcWhy, .mcWhat , .mcHow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mcWhy p, .mcWhat p , .mcHow p{
+    margin-bottom: -9px;
+}
+.mcinfo h2{
+    margin-bottom: -5px;
+    margin-top: 2rem;
+}
+.mcimg{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.mcimg .img1,.mcimg .img2,.mcimg .img3{
+    display: flex;
+}
+.mcimg img{
+    width: 40vw;
+    height: 100%;
+    margin: 1rem;
+}
+@media only screen and (max-width:1000px) {
+.mcinfo{
+    flex-direction: column;
+}
+.mcimg .img1,.mcimg .img2,.mcimg .img3{
+    display: flex;
+    flex-direction: column;
+}
+.mcimg img{
+    width: 80vw;
+    height: 100%;
+    margin: 1rem;
+}
+}

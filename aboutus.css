@@ -1,0 +1,22 @@
+.abimg img{
+    width: 38vw;
+}
+.abhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abinfo{
+    width: 30vw;
+    margin: 4rem;
+}
+.mainab{
+    display: flex;
+    justify-content: space-around;
+   width: 80vw;
+   margin: auto;
+   margin-bottom: 5rem;
+}
+.mainab p{
+    margin: 0;
+}
