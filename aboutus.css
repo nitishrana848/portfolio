@@ -20,3 +20,75 @@
 .mainab p{
     margin: 0;
 }
+@media only screen and (max-width:1000px) {
+    .abhead {
+        flex-direction: column-reverse;
+    }
+
+.abinfo {
+    width: 66vw;
+    margin: 4rem;
+    text-align: center;
+}
+.abimg img {
+    width: 70vw;
+}
+.mainab {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 5rem;
+    flex-direction: column;
+    align-items: center;
+}
+.edu, .exp, .skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+}
+#icon2 {
+    top: 19%;
+    right: 73%;
+    margin-top: 0;
+}
+#icon4 {
+    margin-top: 197px;
+    left: 83%;
+}
+
+
+#icon1 {
+    margin-top: -751px;
+    right: 10%;
+}
+#icon3 {
+    margin-top: 72px;
+    left: 32%;
+}
+#icon5 {
+    margin-top: 399px;
+    left: 50%;
+}
+@media only screen and (max-width:1000px) {
+    #icon4 {
+        margin-top: 119px;
+        left: 18%;
+    }
+    #icon2 {
+        top: 135%;
+        right: 12%;
+        margin-top: 0;
+    }
+    #icon1 {
+        margin-top: -291px;
+        right: 10%;
+    }
+    #icon3 {
+        margin-top: 0px;
+        left: 15%;
+        bottom: -48%;
+    }
+}

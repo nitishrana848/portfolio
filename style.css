@@ -560,7 +560,7 @@ section{
     grid-row-gap: 2rem;
     grid-column-gap: 2rem;
     margin-top: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
 }
 section img{
     width: 100%;
@@ -573,7 +573,8 @@ section img{
         place-content: center;
         margin: 2rem;
         margin-top: 4rem;
-        margin-bottom: 0rem;
+        margin-bottom: 4rem;
+
     }
 }
 footer{
@@ -786,6 +787,103 @@ a{
     text-decoration: none;
     color: black;
 }
+
 .hamburger{
     height: 0;
+}
+.lines1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+#line11{
+    width: 2.5rem;
+        height: 5px;
+    background-color: black;
+    margin-bottom: 6px;
+}
+#line21{
+    width: 2.5rem;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 6px;
+}
+#line31{
+    width: 2.5rem;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 6px;
+}
+.line111{
+    width: 2.5rem;
+        height: 5px;
+    background-color: black;
+    transform: rotate(45deg);
+    position: absolute;
+}
+.line211{
+    display: none;
+}
+.line311{
+    width: 2.5rem;
+    height: 5px;
+    background-color: black;
+    transform: rotate(-45deg);
+}
+.hamburger1{
+    display: none;
+    position: absolute;
+    width: 0vw;
+    height: 0vh;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+.hamburger12{
+   
+    position: absolute;
+    display: block !important;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+.hamburgerlines1{
+    place-self: center;
+    z-index: 2;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.hamburger1{
+    position: absolute;
+    display: block;
+}
+.menu-items1{
+    display: none;
+}
+.menu-items12{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 55vh;
+
+    margin-top: 8rem;
+    margin-left: -2.4rem;
+}
+@media only screen and (min-width:1000px) {
+    .menu-items1{
+        display: none;
+    }
+    .hamburgerlines1{
+        display: none;
+    }
+    .nav{
+        grid-template-columns: 40% 50%;
+    }
 }
