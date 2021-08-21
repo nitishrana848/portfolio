@@ -165,8 +165,9 @@ li{
 }
 
 .menu-items li{
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     font-size: 1.5rem;
+    margin-left: -21px;
 }
 
 .hamburger input[type="checkbox"]:checked ~ .menu-items{
@@ -175,6 +176,11 @@ li{
     background: #fffdf3;
     color: black;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
     
 }
 span.lines.line3 {
