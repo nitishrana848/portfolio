@@ -76,19 +76,26 @@
     #icon4 {
         margin-top: 119px;
         left: 18%;
+        display: none
     }
     #icon2 {
         top: 135%;
         right: 12%;
         margin-top: 0;
+        display: none
     }
     #icon1 {
         margin-top: -291px;
         right: 10%;
+        display: none
     }
     #icon3 {
         margin-top: 0px;
         left: 15%;
         bottom: -48%;
+        display: none
+    }
+    .icon{
+        display: none;
     }
 }

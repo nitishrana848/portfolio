@@ -887,3 +887,6 @@ a{
         grid-template-columns: 40% 50%;
     }
 }
+::placeholder{
+    color: black;
+}

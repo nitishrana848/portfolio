@@ -1,11 +1,11 @@
 form{
     display: flex;
     flex-direction: column;
-    
+    margin-top: 2rem;
     
 }
 form input{
-    width: 50vw;
+    width: 60vw;
     height: 30px;
     background-color: #A5C4D4;
     border-radius: 0.3rem;
@@ -16,7 +16,7 @@ form input{
     outline: none;
 }
 textarea{
-    width: 50vw;
+    width: 60vw;
     background-color: #A5C4D4;
     border-radius: 0.3rem;
     border-style: none;
@@ -25,15 +25,23 @@ textarea{
     padding: 5px;
     outline: none;
 }
+input,textarea{
+    font-family: "Good Sans";
+   
+}
 input[type="button" i]{
     width: 10vw;
     border-radius: 1rem;
-  
+    color: black;
+    font-weight: 900;
+    margin-top: 2rem;
 }
-label,input{
+label{
     font-family: "Good Sans";
     color: black;
+    font-weight: 900;
 }
+
 @media only screen and (max-width: 1000px) {
     input[type="button" i]{
         width: 20vw;
