@@ -840,15 +840,15 @@ a{
     z-index: 1;
 }
 .hamburger12{
-   
     position: absolute;
     display: block !important;
-    background-color: white;
-    width: 100vw;
+    background-color: #fffdf3;
+    width: 80vw;
     height: 100vh;
-    left: 0%;
-    top: 0%;
+    left: 10%;
+    top: 2.1rem;
     z-index: 1;
+    border-radius: 1rem;
 }
 
 .hamburgerlines1{
