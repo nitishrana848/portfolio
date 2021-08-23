@@ -260,7 +260,7 @@ nav{
     display: none;
 }
 .logo img {
-    width: 200px;
+    width: 236px;
 }
 .nav{
     display: flex;
@@ -854,10 +854,11 @@ a{
 .hamburgerlines1{
     place-self: center;
     z-index: 2;
+    margin-top: 0.3rem;
 }
 .nav{
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 13% 80%;
 }
 .hamburger1{
     position: absolute;
